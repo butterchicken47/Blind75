@@ -10,7 +10,7 @@ public class Trie {
         }
     }
 //    static Node root = new Node();
-    public static void insert (String word , Node root){
+public static void insert (String word , Node root){
         Node curr = root;
         for (int i = 0; i< word.length(); i ++){
             int index = word.charAt(i) - 'a';
